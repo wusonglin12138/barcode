@@ -44,7 +44,7 @@ public class TscMain {
         TscLibDll.INSTANCE.openport("Gprinter  GP-3120TL");
         TscLibDll.INSTANCE.sendcommand("CODEPAGE UTF-8");
         TscLibDll.INSTANCE.sendcommand("SIZE 75 mm, 90 mm");
-        TscLibDll.INSTANCE.sendcommand("GAP 4 mm, 0 mm");
+//        TscLibDll.INSTANCE.sendcommand("GAP 4 mm, 0 mm");
         TscLibDll.INSTANCE.sendcommand("DIRECTION 1");
         TscLibDll.INSTANCE.sendcommand("CLS");
 
